@@ -108,7 +108,7 @@ async def initiate_bot():
         console.print(f"\n[red]Stopping Bot")
         return
     try:
-        await userbot.join_chat("TamilBots")
+        await userbot.join_chat("tamil_comrades")
     except:
         pass
     console.print(f"\n╭─⊸➢ [red] Bot Started as {BOT_NAME}!")
@@ -119,7 +119,7 @@ async def initiate_bot():
     console.print(f"\n[red]Stopping Bot")
 
 
-home_text_pm = f"""Hello ,
+home_text_pm = f"""Hello ,(https://telegra.ph/file/a0346264268665927f17a.jpg) 
 My name is {BOT_NAME}.
 I'm Telegram Voice Chat Audio with some useful features.
 
